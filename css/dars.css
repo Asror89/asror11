@@ -1,0 +1,61 @@
+body{
+                    background: #262626;
+}
+.box-area{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items:center;
+}
+.single-box{
+                    position:relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    justify-content: center;
+                    width: 300px;
+                    height: auto;
+                    border-radius: 4px;
+                    background-color: white;
+                    text-align: center;
+                    margin: 20px;
+                    padding: 20px;
+                    transition: .3s;
+                    transition:cubic-bezier(1.5 1.5);
+}
+.img-area{
+                    display: flex;
+                    justify-content: center;
+                    align-items:center;
+                    width: 80px;
+                    height: 80px;
+                    border: 6px solid #ddd;
+                    border-radius: 50%;
+                    margin-bottom: 10px;
+                    -webkit-background-size:cover;
+                    background-size: cover;
+                    background-position: center center;
+}
+.single-box:nth-child(1) .img-area{
+                    background-image:url(https://cdn.pixabay.com/photo/2022/01/31/12/46/bird-6983434_960_720.jpg)
+}
+.single-box:nth-child(2) .img-area{
+                    background-image:url(https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg)
+}
+.single-box:nth-child(3) .img-area{
+                    background-image:url(https://media.istockphoto.com/photos/beautiful-cute-grey-parrot-portrait-on-the-black-background-picture-id1365273617)
+}
+.heade-text{
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 48px;
+}
+.img-text p{
+                    font-style: 15px;
+                    font-weight: 400px;
+                    line-height: 30px;
+}
+.img-text{
+                    font-family: sans-serif;
+                    padding-top: 20px;
+}

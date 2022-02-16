@@ -1,0 +1,74 @@
+body{
+                    background-color:aqua;
+}
+.title{
+                    text-align: center;
+                    color: white;
+                    border:2px solid rgb(247, 6, 6);
+                    background-color:black
+}
+.wrapper{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content:center;
+}
+.img-1{
+                    padding: 0 20px 20px;
+                    margin: 20px;
+                    width: 200px;
+                    height: 300px;
+                    border: 2px solid black;
+                    background-color:aquamarine;
+                    border: 3px solid black;
+}
+.img-1{
+                    padding: 0 20px 20px;
+                    margin: 20px;
+                    width: 200px;
+                    height: 300px;
+                    border: 2px solid black;
+                    background-color:aquamarine;
+                    border: 3px solid black;
+}
+.img-1{
+                    padding: 0 20px 20px;
+                    margin: 20px;
+                    width: 200px;
+                    height: 300px;
+                    border: 2px solid black;
+                    background-color:aquamarine;
+                    border: 3px solid black;
+}
+.img-1{
+                    padding: 0 20px 20px;
+                    margin: 20px;
+                    width: 200px;
+                    height: 300px;
+                    border: 2px solid black;
+                    background-color:aquamarine;
+                    border: 3px solid black;
+}
+.bosh{
+                    text-align: center;
+                    width: 200px;
+                    height: 50px;
+                    color:white;
+                    background-color:red;
+                    border: 3px solid black;
+}
+.aaa{
+                    text-align: center;
+                    width: 200px;
+                    height: 50px;
+                    color:white;
+                    background-color:red;
+                    border: 3px solid black;
+}
+
+.img-1:hover{
+                    transition: .9s;
+                    transform: scale(1.5, 1.5);
+                    background-color:blueviolet;
+}
